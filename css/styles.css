@@ -1,0 +1,27 @@
+/* --- Font --- */
+
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:wght@500;700&display=swap');
+
+/* --- Colors --- */
+
+:root {
+    --almost-white : hsl(0, 0%, 98%);
+    --medium-gray : hsl(0, 0%, 41%);
+    --almost-black : hsl(0, 0%, 8%);
+}
+
+/* --- Base  --- */
+
+body {
+    font-family: 'Epilogue', sans-serif;
+    font-size: 18px;
+}
+
+/* @media screen and ( max-width: 1440px){
+    
+}
+
+@media screen and ( max-width: 375px){
+    
+}
+ */
