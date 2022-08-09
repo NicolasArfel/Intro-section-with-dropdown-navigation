@@ -1,0 +1,27 @@
+{
+  "name": "intro-section-with-dropdown-navigation",
+  "version": "1.0.0",
+  "description": "![Design preview for the Intro section with dropdown navigation coding challenge](./design/desktop-preview.jpg)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NicolasArfel/Intro-section-with-dropdown-navigation.git"
+  },
+  "author": "Nicolas Arfel",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NicolasArfel/Intro-section-with-dropdown-navigation/issues"
+  },
+  "homepage": "https://github.com/NicolasArfel/Intro-section-with-dropdown-navigation#readme",
+  "dependencies": {
+    "bulma": "^0.9.4"
+  },
+  "devDependencies": {
+    "eslint": "^8.21.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.26.0"
+  }
+}

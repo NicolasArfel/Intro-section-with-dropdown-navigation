@@ -15,6 +15,90 @@
 body {
     font-family: 'Epilogue', sans-serif;
     font-size: 18px;
+    color: var(--medium-gray);
+    height: 100vh !important;
+    background-color: var(--almost-white);
+}
+
+nav{
+    background-color: var(--almost-white) !important;
+    
+}
+
+a {
+    font-size: 1rem;
+}
+
+a:hover {
+    font-weight: 700 !important;
+    color: var(--almost-black) !important;
+    background-color: var(--almost-white) !important;
+}
+
+.navbar-item img {
+    margin-right: 1rem;
+}
+
+main {
+    height: 100% !important;
+    width: 85% !important;
+    margin-top: 2rem !important;
+    margin-bottom: 2rem !important;
+    
+}
+
+.container__columns {
+    height: 80vh !important;
+    min-width: 100% !important;
+}
+
+.register {
+    border: 1px solid var(--medium-gray);
+    border-radius: 10px;
+    margin-left: 1.5rem;
+    padding: 0.5rem 1rem;
+}
+
+.left__column {
+    position: relative;
+    margin-right: 4rem;
+}
+
+.left__column-title {
+    color: var(--almost-black);
+    font-size: 4.5rem;
+    font-weight: 700;
+    line-height: 4rem;
+    margin-top: 6rem;
+}
+
+.left__column-text {
+    max-width: 70%;
+    font-size: 1rem;
+    margin: 4rem 3rem 4rem 0;
+}
+
+.button {
+    max-width: 125px;
+    padding: 1rem 2rem;
+    border-radius: 10px;
+    font-weight: 700;
+}
+
+.button:hover {
+    color: var(--almost-black) !important;
+    background-color: white !important;
+    border: 1px solid var(--almost-black) !important;
+}
+
+.left__column-logos {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.right__column-image {
+    height:100%;
 }
 
 /* @media screen and ( max-width: 1440px){
